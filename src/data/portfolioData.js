@@ -49,61 +49,61 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "E-Commerce Platform",
-    description:
-      "Full-stack online store with product catalog, cart management, and secure checkout using PHP and MySQL.",
-    image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    technologies: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
-    github: "https://github.com/hemil/ecommerce-platform",
-    live: null,
-  },
-  {
-    id: 2,
-    title: "Task Manager App",
-    description:
-      "React-based productivity app with drag-and-drop boards, real-time updates, and dark mode support.",
-    image:
-      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    technologies: ["React", "JavaScript", "Tailwind CSS"],
-    github: "https://github.com/hemil/task-manager",
-    live: "#",
-  },
-  {
-    id: 3,
-    title: "Network Scanner Tool",
-    description:
-      "Python utility for network discovery, port scanning, and vulnerability assessment for educational purposes.",
-    image:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
-    technologies: ["Python", "Linux", "Cybersecurity"],
-    github: "https://github.com/hemil/network-scanner",
-    live: null,
-  },
-  {
-    id: 4,
-    title: "Weather Dashboard",
-    description:
-      "Real-time weather application with location-based forecasts, animated UI, and API integration.",
-    image:
-      "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&h=400&fit=crop",
-    technologies: ["JavaScript", "HTML", "CSS", "API"],
-    github: "https://github.com/hemil/weather-dashboard",
-    live: "#",
-  },
-  {
-    id: 5,
-    title: "Android Notes App",
-    description:
-      "Native Android application for note-taking with categories, search, and offline storage capabilities.",
-    image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
-    technologies: ["Java", "Android", "SQLite"],
-    github: "https://github.com/hemil/android-notes",
-    live: null,
-  },
+  // {
+  //   id: 1,
+  //   title: "E-Commerce Platform",
+  //   description:
+  //     "Full-stack online store with product catalog, cart management, and secure checkout using PHP and MySQL.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+  //   technologies: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+  //   github: "https://github.com/hemil/ecommerce-platform",
+  //   live: null,
+  // },
+  // {
+  //   id: 2,
+  //   title: "Task Manager App",
+  //   description:
+  //     "React-based productivity app with drag-and-drop boards, real-time updates, and dark mode support.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+  //   technologies: ["React", "JavaScript", "Tailwind CSS"],
+  //   github: "https://github.com/hemil/task-manager",
+  //   live: "#",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Network Scanner Tool",
+  //   description:
+  //     "Python utility for network discovery, port scanning, and vulnerability assessment for educational purposes.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
+  //   technologies: ["Python", "Linux", "Cybersecurity"],
+  //   github: "https://github.com/hemil/network-scanner",
+  //   live: null,
+  // },
+  // {
+  //   id: 4,
+  //   title: "Weather Dashboard",
+  //   description:
+  //     "Real-time weather application with location-based forecasts, animated UI, and API integration.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&h=400&fit=crop",
+  //   technologies: ["JavaScript", "HTML", "CSS", "API"],
+  //   github: "https://github.com/hemil/weather-dashboard",
+  //   live: "#",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Android Notes App",
+  //   description:
+  //     "Native Android application for note-taking with categories, search, and offline storage capabilities.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
+  //   technologies: ["Java", "Android", "SQLite"],
+  //   github: "https://github.com/hemil/android-notes",
+  //   live: null,
+  // },
   {
     id: 6,
     title: "Portfolio Website",
@@ -120,40 +120,40 @@ export const projects = [
 export const certifications = [
   {
     id: 1,
-    title: "Google IT Support Professional",
-    issuer: "Google / Coursera",
-    date: "2024",
+    title: "Ethical Hacking Fundamentals",
+    issuer: "Craw Security  / IIT Bombay",
+    date: "dec 2025",
     image:
-      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop",
+      "https://cert-files.konfhub.com/9342/1165b526-f782-11f0-9702-6d13984e68db.pdf",
     credentialUrl: "#",
   },
-  {
-    id: 2,
-    title: "Introduction to Cybersecurity",
-    issuer: "Cisco Networking Academy",
-    date: "2024",
-    image:
-      "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=300&fit=crop",
-    credentialUrl: "#",
-  },
-  {
-    id: 3,
-    title: "JavaScript Algorithms & Data Structures",
-    issuer: "freeCodeCamp",
-    date: "2023",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop",
-    credentialUrl: "#",
-  },
-  {
-    id: 4,
-    title: "AWS Cloud Practitioner Essentials",
-    issuer: "Amazon Web Services",
-    date: "2025",
-    image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop",
-    credentialUrl: "#",
-  },
+  // {
+  //   id: 2,
+  //   title: "Introduction to Cybersecurity",
+  //   issuer: "Cisco Networking Academy",
+  //   date: "2024",
+  //   image:
+  //     "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=300&fit=crop",
+  //   credentialUrl: "#",
+  // },
+  // {
+  //   id: 3,
+  //   title: "JavaScript Algorithms & Data Structures",
+  //   issuer: "freeCodeCamp",
+  //   date: "2023",
+  //   image:
+  //     "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop",
+  //   credentialUrl: "#",
+  // },
+  // {
+  //   id: 4,
+  //   title: "AWS Cloud Practitioner Essentials",
+  //   issuer: "Amazon Web Services",
+  //   date: "2025",
+  //   image:
+  //     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop",
+  //   credentialUrl: "#",
+  // },
 ];
 
 export const education = [
