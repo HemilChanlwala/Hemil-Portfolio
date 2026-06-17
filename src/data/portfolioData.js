@@ -5,7 +5,7 @@ export const personalInfo = {
   phone: "+91 8160509843",
   location: "surat, Gujarat, India",
   resumeUrl: "/Hemil_CV_Resume.pdf",
-  githubUsername: "hemil",
+  githubUsername: "HemilChanlwala",
   // Use a local image placed in `public/hemil.jpg` for the profile photo.
   // If that file doesn't exist, the app will fall back to a broken image icon.
   profileImage: "/hemil.jpg",
