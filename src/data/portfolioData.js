@@ -112,8 +112,8 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/hemil/portfolio",
-    live: "#",
+    github: "https://github.com/HemilChanlwala/Hemil-Portfolio",
+    live: "https://hemilportfolio.vercel.app/",
   },
 ];
 
@@ -216,13 +216,13 @@ export const experience = [
   // },
 ];
 
-export const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Certifications", href: "#certifications" },
-  { name: "Education", href: "#education" },
-  { name: "Experience", href: "#experience" },
-  { name: "Contact", href: "#contact" },
-];
+// export const navLinks = [
+//   { name: "Home", href: "#home" },
+//   { name: "About", href: "#about" },
+//   { name: "Skills", href: "#skills" },
+//   { name: "Projects", href: "#projects" },
+//   { name: "Certifications", href: "#certifications" },
+//   { name: "Education", href: "#education" },
+//   { name: "Experience", href: "#experience" },
+//   { name: "Contact", href: "#contact" },
+// ];
