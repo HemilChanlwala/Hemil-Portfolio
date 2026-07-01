@@ -7,7 +7,7 @@ import ParticleBackground from "./ParticleBackground";
 
 export default function Hero() {
   const typingSequence = typingSkills.flatMap((skill) => [skill, 2000]);
-  const resumeLink = new URL(personalInfo.resumeUrl, import.meta.env.BASE_URL).href;
+  const resumeLink = `${import.meta.env.BASE_URL ?? "/"}${personalInfo.resumeUrl}`;
 
   return (
     <section
