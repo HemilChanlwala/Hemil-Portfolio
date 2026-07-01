@@ -7,6 +7,7 @@ import ParticleBackground from "./ParticleBackground";
 
 export default function Hero() {
   const typingSequence = typingSkills.flatMap((skill) => [skill, 2000]);
+  const resumeLink = new URL(personalInfo.resumeUrl, import.meta.env.BASE_URL).href;
 
   return (
     <section
@@ -78,7 +79,7 @@ export default function Hero() {
               className="flex flex-wrap gap-4 justify-center lg:justify-start mb-8"
             >
               <a
-                href={personalInfo.resumeUrl}
+                href={resumeLink}
                 download
                 className="group flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-full font-medium hover:shadow-lg hover:shadow-indigo-500/30 transition-all hover:scale-105"
               >
